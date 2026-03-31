@@ -42,6 +42,7 @@ endif()
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     src/plugin-main.cpp
     src/bible-source.cpp
+    src/bible-database.cpp
     src/sqlite3.c
 )
 
